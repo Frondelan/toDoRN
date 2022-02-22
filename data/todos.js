@@ -1,0 +1,88 @@
+const todosData = [
+  {
+    id: 1,
+    text: "Take out the trash",
+    isCompleted: true,
+    isToday: true,
+    hour: "10:00",
+  },
+  {
+    id: 2,
+    text: "Meeting with the boss",
+    isCompleted: false,
+    isToday: false,
+    hour: "11:00",
+  },
+  {
+    id: 3,
+    text: "Dentist appointment",
+    isCompleted: true,
+    isToday: true,
+    hour: "12:00",
+  },
+  {
+    id: 4,
+    text: "Pick up kids from school",
+    isCompleted: false,
+    isToday: true,
+    hour: "14:00",
+  },
+  {
+    id: 5,
+    text: "Watch the NFL",
+    isCompleted: false,
+    isToday: true,
+    hour: "19:00",
+  },
+  {
+    id: 6,
+    text: "Feed Grey",
+    isCompleted: false,
+    isToday: true,
+    hour: "9:00",
+  },
+  {
+    id: 7,
+    text: "Feed Grey 2",
+    isCompleted: true,
+    isToday: false,
+    hour: "9:00",
+  },
+  {
+    id: 8,
+    text: "Feed Grey 3",
+    isCompleted: false,
+    isToday: false,
+    hour: "9:00",
+  },
+  {
+    id: 9,
+    text: "Feed Grey 4",
+    isCompleted: true,
+    isToday: false,
+    hour: "9:00",
+  },
+  {
+    id: 10,
+    text: "Feed Grey 5",
+    isCompleted: false,
+    isToday: false,
+    hour: "6:00",
+  },
+  {
+    id: 11,
+    text: "Feed Grey",
+    isCompleted: true,
+    isToday: false,
+    hour: "10:00",
+  },
+  {
+    id: 12,
+    text: "Feed Grey",
+    isCompleted: true,
+    isToday: false,
+    hour: "10:00",
+  },
+];
+
+module.exports = { todosData };
